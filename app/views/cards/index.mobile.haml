@@ -1,6 +1,18 @@
--content_for :title do
-    index de cards
+#start
+    .toolbar
+        = link_to "Back", nil, :class => "back"
+        %h1=h "Start"
 
-%ul
-    %li.arrow
-        = link_to "otra prueba prueba", "#"
+    %ul
+        %li.arrow
+            = link_to "page2", "#page2"
+
+
+#page2
+    .toolbar
+        = link_to "Back", nil, :class => "back"
+        %h1=h "Page2"
+        = yield(:toolbar)
+
+    .info.touch.swipe
+        %p otra informacion

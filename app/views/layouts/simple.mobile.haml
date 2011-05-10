@@ -8,14 +8,4 @@
         = javascript_include_tag "jqtouch", "mobile"
         = yield :javascripts
     %body
-        .current
-            .toolbar
-                = link_to "Back", nil, :class => "back" unless current_page? root_path
-                %h1=h yield(:title)
-                = yield(:toolbar)
-                = link_to "Full Site", root_url(:mobile => 0), :class => "button", :rel => "external"
-
-            .info
-                informacion
-
-            =yield
+        =yield

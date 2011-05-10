@@ -5,10 +5,12 @@
         <file>file:/Users/fsainz/rails/orly/app/views/layouts/application.mobile.haml</file>
         <file>file:/Users/fsainz/rails/orly/public/javascripts/mobile.js</file>
         <file>file:/Users/fsainz/rails/orly/app/views/home/index.mobile.haml</file>
-        <file>file:/Users/fsainz/rails/orly/db/migrate/20110508192630_create_cards.rb</file>
-        <file>file:/Users/fsainz/rails/orly/app/views/layouts/application.html.haml</file>
-        <file>file:/Users/fsainz/rails/orly/app/controllers/cards_controller.rb</file>
         <file>file:/Users/fsainz/rails/orly/app/views/cards/index.mobile.haml</file>
+        <file>file:/Users/fsainz/rails/orly/db/migrate/20110508192630_create_cards.rb</file>
+        <file>file:/Users/fsainz/rails/orly/app/controllers/cards_controller.rb</file>
         <file>file:/Users/fsainz/rails/orly/config/routes.rb</file>
+        <file>file:/Users/fsainz/rails/orly/public/stylesheets/sass/mobile.scss</file>
+        <file>file:/Users/fsainz/rails/orly/app/views/layouts/simple.mobile.haml</file>
+        <file>file:/Users/fsainz/rails/orly/app/views/cards/index.mobile.erb</file>
     </open-files>
 </project-private>

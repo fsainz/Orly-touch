@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/Users/fsainz/rails/orly/app/views/layouts/application.mobile.haml</file>
+        <file>file:/Users/fsainz/rails/orly/public/javascripts/mobile.js</file>
+        <file>file:/Users/fsainz/rails/orly/app/views/home/index.mobile.haml</file>
+        <file>file:/Users/fsainz/rails/orly/db/migrate/20110508192630_create_cards.rb</file>
+        <file>file:/Users/fsainz/rails/orly/app/views/layouts/application.html.haml</file>
+        <file>file:/Users/fsainz/rails/orly/app/controllers/cards_controller.rb</file>
+        <file>file:/Users/fsainz/rails/orly/app/views/cards/index.mobile.haml</file>
+        <file>file:/Users/fsainz/rails/orly/config/routes.rb</file>
+    </open-files>
+</project-private>

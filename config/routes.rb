@@ -3,6 +3,8 @@ Orly::Application.routes.draw do
 
   root :to => 'home#index'
 
+  resources :cards
+
 #  resources :links do
 #    collection do
 #      post :sort

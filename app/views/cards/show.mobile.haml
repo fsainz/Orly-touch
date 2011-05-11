@@ -11,4 +11,5 @@
         = link_to "prev", "#s#{prev_id}", :class=>"slideright" if prev_id
         = link_to "next", "#s#{next_id}", :class=>"slideleft" if next_id
     .info
-        = card.description
+        - card.description.split("\n").each do |text|
+            %p= text

@@ -1,6 +1,6 @@
 class AddImagePathToCards < ActiveRecord::Migration
   def self.up
-    add_column :cards, :image_path, :string
+    add_column :cards, :image_path, :string, :default=>""
   end
 
   def self.down

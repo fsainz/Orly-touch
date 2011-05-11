@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(:version => 20110511163508) do
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "image_path"
+    t.string   "image_path",  :default => ""
   end
 
   create_table "cards_groups", :id => false, :force => true do |t|

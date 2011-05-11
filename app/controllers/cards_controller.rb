@@ -2,9 +2,10 @@ class CardsController < ApplicationController
 
 
 
-def index
-    render :layout => false
-end
+  def index
+    @cards = Card.all
+
+  end
 
   def new
     @card = Card.new
@@ -23,5 +24,22 @@ end
     end
   end
 
+  def edit
+    @card = Card.find(params[:id])
+  end
+
+  def update
+    @card = Card.find(params[:id])
+
+    respond_to do |format|
+      if @card.update_attributes(params[:card])
+        format.html { redirect_to(@card, :notice => 'Group was successfully updated.') }
+        format.xml  { head :ok }
+      else
+        format.html { render :action => "edit" }
+        format.xml  { render :xml => @card.errors, :status => :unprocessable_entity }
+      end
+    end
+  end
 
 end

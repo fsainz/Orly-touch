@@ -8,7 +8,7 @@
     #quotes
         // link_to (image_tag card.image_path), "#s#{next_id}", :class=>"slideleft"
         .card_image= image_tag card.image_path.to_s
-        = link_to "prev", "#s#{prev_id}", :class=>"slideright" if prev_id
-        = link_to "next", "#s#{next_id}", :class=>"slideleft" if next_id
+        = link_to image_tag("../themes/jqt/img/chevron_circle.png"), "#s#{prev_id}", :class=>"prev slideright" if prev_id
+        = link_to image_tag("../themes/jqt/img/chevron_circle.png"), "#s#{next_id}", :class=>"next slideleft" if next_id
     .info
         = card.description

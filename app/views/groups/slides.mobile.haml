@@ -1,3 +1,4 @@
-#slides
-    - @cards.each do |card|
-        = render :template=>"cards/show", :locals=>{:card=>card}
+- @cards.each_with_index do |card, index|
+    - prev_id = index==0 ? nil : @cards[index-1].id
+    - next_id = @cards[index+1].try(:id)
+    = render :template=>"cards/show", :locals=>{:card=>card,:prev_id=>prev_id, :next_id=>next_id}

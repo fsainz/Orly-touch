@@ -1,8 +1,14 @@
-#s1
+- card ||=@card
+- next_id ||=@next_id
+- prev_id ||=@prev_id
+%div{:id => "s#{card.id}"}
     .toolbar
         = link_to "Back", nil, :class => "back"
-        %h1= @card.name
+        %h1= card.name
     #quotes
-        = link_to (image_tag @card.image_path), "#s2", :class=>"slideleft"
+        // link_to (image_tag card.image_path), "#s#{next_id}", :class=>"slideleft"
+        .card_image= image_tag card.image_path
+        = link_to "prev", "#s#{prev_id}", :class=>"slideright" if prev_id
+        = link_to "next", "#s#{next_id}", :class=>"slideleft" if next_id
     .info
-        = @card.description
+        = card.description

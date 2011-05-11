@@ -1,0 +1,10 @@
+#group
+    .toolbar
+        = link_to "Back", nil, :class => "back"
+        %h1= @group.name
+
+    %ul
+        %li.arrow= link_to "user1", "#page2"
+        %li.arrow= link_to "user2", "#page2"
+        %li.arrow= link_to "user3", "#page2"
+        %li.arrow= link_to "user4", "#page2"

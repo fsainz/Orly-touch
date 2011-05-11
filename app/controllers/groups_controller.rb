@@ -1,4 +1,5 @@
 class GroupsController < ApplicationController
+
   # GET /groups
   # GET /groups.xml
   def index
@@ -18,7 +19,9 @@ class GroupsController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @group }
+      format.mobile { render :layout => false }
     end
+
   end
 
   # GET /groups/new

@@ -9,5 +9,5 @@
     %ul
         - Group.all.each do |g|
             %li.arrow
-                = link_to g.name, cards_path()
+                = link_to g.name, group_path(g)
                 // %small.counter 2

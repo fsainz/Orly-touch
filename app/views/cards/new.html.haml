@@ -8,7 +8,13 @@
         %br
         =f.text_area  :description
         %br
-        =f.select :group_id, options_for_select(Group.all.map{|g| [g.name, g.id]})
+        =f.label      :image_path
+        %br
+        =f.select     :image_path, options_for_select(images_for_cards_options)
+        %br
+        =f.label      :group
+        %br
+        =f.select     :group_id, options_for_select(Group.all.map{|g| [g.name, g.id]})
         %br
         %br
         =submit_tag "save"

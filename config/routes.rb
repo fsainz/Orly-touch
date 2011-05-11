@@ -1,5 +1,9 @@
 Orly::Application.routes.draw do
-  resources :groups
+  resources :groups do
+    member do
+      get :slides
+    end
+  end
 
   devise_for :users
 

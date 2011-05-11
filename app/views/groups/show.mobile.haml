@@ -1,0 +1,8 @@
+#group
+    .toolbar
+        = link_to "Back", nil, :class => "back"
+        %h1= @group.name
+
+    %ul
+        - @group.cards.each do |card|
+            %li.arrow= link_to card.name, card_path(card)

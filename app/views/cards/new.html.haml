@@ -1,0 +1,14 @@
+%h1 new card
+= form_for @card do |f|
+        =f.label      :name
+        %br
+        =f.text_field :name
+        %br
+        =f.label      :description
+        %br
+        =f.text_area  :description
+        %br
+        =f.select :group_id, options_for_select(Group.all.map{|g| [g.name, g.id]})
+        %br
+        %br
+        =submit_tag "save"

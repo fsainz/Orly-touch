@@ -8,6 +8,7 @@ class GroupsController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @groups }
+      format.mobile { render :layout => false }
     end
   end
 
@@ -86,6 +87,7 @@ class GroupsController < ApplicationController
 
   def slides
     group = Group.find(params[:id])
-    @cards = Group.cards
+    @cards = group.cards
+    render :layout => false
   end
 end

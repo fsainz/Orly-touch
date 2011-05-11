@@ -7,7 +7,7 @@
 #   Mayor.create(:name => 'Daley', :city => cities.first)
 tvss = Group.create(:name => "Tetuan Valley Spring 2011", :description => "It’s an experience that tries to bring to life many of the values of our manifesto. The Tetuan Valley Startup school is a 6 week program for young wanna-be-entrepreneurs who want to experience what is it like to build a startup.")
 
-cards = [
+tvss_cards = [
   {:name => "Arbitratio", :description => "[Members: Guillermo Vicandi Nebreda, Xavier Miró Bruix, Luis Durán Vizán]\n\n arbitratio.com is meant to be the largest online data base containing all the information relative to international arbitration and alternative dispute resolution. It’s powerful search engine will allow users to perform accurate researches; and what is more, perform related searches filtered by court, country, topic, and many other different parameters, that will provide the user all the knowledge they require for the preparation of real cases.", :image_path=>"arbitratio.jpg"},
   {:name => "Nimbud", :description => "[Members: Roberto Costumero Moreno, Alejandro Pérez Orbis, Héctor Ambit Hernández]\n\n A real-time search engine which will show results based on social relevance. Newer and relevant content will appear first, filtering older, less relevant content to lower positions", :image_path=>"nimbud.jpg"},
   {:name => "Mobitto", :description => "[Members: Jose Simoes]\n\n Mobitto offers a platform to improve merchants efficiency. In short, it provides a way to create real-time targeted flash deals (discounts, offers, promotions), which can be consumed by users, within a mobile application. Deals are then converted into e-vouchers that can be redeemed in a physical location. In addition, it is complemented by a user context broker, where user related data can be queried or subscribed according to user self-defined real-time privacy policies.", :image_path=>"mobbito.jpg"},
@@ -21,4 +21,18 @@ cards = [
   ]
 #tvss_cards =  Card.create(cards)
 
-cards.each{|c| tvss.cards << Card.new(c)}
+tvss_cards.each{|c| tvss.cards << Card.new(c)}
+
+
+chicas = Group.create(:name => "Chicas Guapas", :description => "Pibones en general")
+chicas_cards = [
+  {:name => "Natalie Portman", :description => "Natalie Hershlag (Jerusalén, Israel, 9 de junio de 1981) conocida artísticamente como Natalie Portman, es una actriz israelí-estadounidense. Debutó en el cine en la película francesa Léon (1994), donde encarnó el papel de una huérfana que es salvada por un asesino a sueldo. En la década de 1990 interpretó varios papeles protagonistas, en filmes como Beautiful Girls y Anywhere but Here, antes de que fuese seleccionada para dar vida al personaje de Padmé Amidala en Star Wars. En 1999, mientras trabajaba en la filmación de Star Wars, ingresó a la Universidad de Harvard en la carrera de Psicología y obtuvo su licenciatura en 2003.[1]", :image_path=>"1.jpg"},
+  {:name => "Milla Jovovich", :description => "Milla Jovovich (ucraniano: Мiліца Йовович), nacida como Milica Jovović (Kiev Ucrania, 17 de diciembre de 1975), es una modelo, actriz, cantante y diseñadora de moda serbia-ucraniana. Ha interpretado papeles en varias películas de ciencia ficción y de acción, por lo que el canal de televisión VH1 le apodó «la reina patea traseros».También ha actuado junto a reconocidos actores, como John Malkovich, Dustin Hoffman, Bruce Willis, Robert Downey Jr., Christian Slater, Ali Larter y más recientemente con Robert De Niro y Edward Norton.", :image_path=>"2.jpg"},
+  {:name => "Charlize Theron", :description => "Nacida el 7 de agosto de 1975 en Benoni (provincia de Gauteng) (República de Sudáfrica), actualmente reside en Los Ángeles, California. Su lengua materna es el afrikáans y su segunda lengua el inglés.", :image_path=>"3.jpg"},
+  {:name => "Gwyneth Paltrow", :description => "Gwyneth Kate Paltrow (Los Ángeles, Estados Unidos, 27 de septiembre de 1972) es una actriz y cantante estadounidense, ganadora de un Óscar, un Globo de Oro y un premio del Sindicato de Actores, todos ellos en la categoría de mejor actriz, por su papel en la película Shakespeare in Love (1998).", :image_path=>"4.jpg"},
+  ]
+
+chicas_cards.each{|c| chicas.cards << Card.new(c)}
+
+
+

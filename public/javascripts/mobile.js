@@ -1,5 +1,5 @@
 // javascripts/mobile.js
-$.jQTouch({
+var jQT= $.jQTouch({
     icon: 'jqtouch.png',
     statusBar: 'black-translucent',
     preloadImages: [
@@ -8,21 +8,14 @@ $.jQTouch({
         ]
 });
 
-$(document).ready(function() {
-var jQT = new $.jQTouch({
-	    icon: 'jqtouch.png',
-	    statusBar: 'black-translucent',
-	    startupScreen: 'jqt_startup.png'
-	});
-
 
 
 	$(function() {
 		// remove this block or integrate some javascript scroller if your content needs to scroll
 		// but you must know that there are issues if you choose to remove it.
-        $('#jqt').bind('touchmove',function(){
+//        $('#jqt').bind('touchmove',function(){
 //            event.preventDefault();
-        });
+//        });
 
 		// defining the navigation flow for the first page
 		$('#s1').bind("swipe", function(event, info) {
@@ -58,5 +51,3 @@ var jQT = new $.jQTouch({
 	});
 	//--><!]]>
 
-
-});

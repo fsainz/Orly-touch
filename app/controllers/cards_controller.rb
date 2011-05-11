@@ -1,6 +1,7 @@
 class CardsController < ApplicationController
 
-layout "simple"
+layout :false
+
 def index
 
 end

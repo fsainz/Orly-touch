@@ -1,7 +1,13 @@
--content_for :title do
-    titulo
+.current
+    .toolbar
+        = link_to "Back", nil, :class => "back" unless current_page? root_path
+        %h1 the orly project
+        = link_to "Full Site", root_url(:mobile => 0), :class => "button", :rel => "external"
 
-%ul
-    %li.arrow
-        = link_to "prueba", cards_path()
-        %small.counter 2
+    .info
+        informacion
+
+    %ul
+        %li.arrow
+            = link_to "grupo 1", cards_path()
+            %small.counter 2

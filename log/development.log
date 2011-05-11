@@ -7553,3 +7553,250 @@ Started GET "/cards" for 192.168.1.9 at Tue May 10 15:52:52 +0200 2011
   Processing by CardsController#index as HTML
 Rendered cards/index.mobile.erb within layouts/simple (5.2ms)
 Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.9 at Wed May 11 14:10:57 +0200 2011
+  Processing by CardsController#index as HTML
+Rendered cards/index.mobile.erb within layouts/simple (5.6ms)
+Completed 200 OK in 89ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.9 at Wed May 11 14:11:56 +0200 2011
+  Processing by CardsController#index as HTML
+Rendered cards/index.mobile.erb within layouts/simple (81.8ms)
+Completed 200 OK in 85ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.9 at Wed May 11 15:39:41 +0200 2011
+  Processing by CardsController#index as HTML
+Rendered cards/index.mobile.erb within layouts/simple (5.5ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.9 at Wed May 11 15:41:33 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (9.6ms)
+Completed 200 OK in 35ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.9 at Wed May 11 15:42:54 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (10.2ms)
+Completed 200 OK in 29ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.9 at Wed May 11 15:42:57 +0200 2011
+  Processing by CardsController#index as 
+Rendered cards/index.mobile.erb within layouts/simple (6.1ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.9 at Wed May 11 15:43:11 +0200 2011
+  Processing by CardsController#index as HTML
+Rendered cards/index.mobile.erb within layouts/simple (5.0ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.9 at Wed May 11 15:44:57 +0200 2011
+  Processing by CardsController#index as HTML
+Rendered cards/index.mobile.erb within layouts/simple (5.7ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 127.0.0.1 at Wed May 11 15:47:27 +0200 2011
+  Processing by CardsController#index as HTML
+Rendered cards/index.mobile.erb within layouts/simple (5.4ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.9 at Wed May 11 15:47:32 +0200 2011
+  Processing by CardsController#index as HTML
+Rendered cards/index.mobile.erb within layouts/simple (5.2ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.9 at Wed May 11 15:47:51 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (9.2ms)
+Completed 200 OK in 28ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.9 at Wed May 11 15:47:57 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (9.8ms)
+Completed 200 OK in 99ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.9 at Wed May 11 15:48:15 +0200 2011
+  Processing by CardsController#index as 
+Rendered cards/index.mobile.erb within layouts/simple (5.1ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.9 at Wed May 11 15:49:49 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (83.3ms)
+Completed 200 OK in 101ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.9 at Wed May 11 15:49:52 +0200 2011
+  Processing by CardsController#index as 
+Rendered cards/index.mobile.erb within layouts/simple (1.8ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.9 at Wed May 11 15:49:57 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (84.9ms)
+Completed 200 OK in 103ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.9 at Wed May 11 15:50:00 +0200 2011
+  Processing by CardsController#index as 
+Rendered cards/index.mobile.erb within layouts/simple (2.0ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.11 at Wed May 11 15:50:26 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (10.1ms)
+Completed 200 OK in 28ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.11 at Wed May 11 15:50:48 +0200 2011
+  Processing by CardsController#index as 
+Rendered cards/index.mobile.erb within layouts/simple (1.7ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 127.0.0.1 at Wed May 11 15:51:04 +0200 2011
+  Processing by CardsController#index as HTML
+Rendered cards/index.mobile.erb within layouts/simple (1.8ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed May 11 15:51:14 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (9.8ms)
+Completed 200 OK in 28ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 127.0.0.1 at Wed May 11 15:51:20 +0200 2011
+  Processing by CardsController#index as 
+Rendered cards/index.mobile.erb within layouts/simple (2.4ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.11 at Wed May 11 15:51:29 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (10.2ms)
+Completed 200 OK in 29ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.11 at Wed May 11 15:51:32 +0200 2011
+  Processing by CardsController#index as 
+Rendered cards/index.mobile.erb within layouts/simple (1.8ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.9 at Wed May 11 15:55:46 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (82.2ms)
+Completed 200 OK in 100ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?mobile=0" for 192.168.1.9 at Wed May 11 15:55:50 +0200 2011
+  Processing by HomeController#index as HTML
+  Parameters: {"mobile"=>"0"}
+Rendered shared/_header.html.haml (2.2ms)
+Rendered home/index.html.haml within layouts/application (270.4ms)
+Completed 200 OK in 375ms (Views: 360.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?mobile=1" for 192.168.1.9 at Wed May 11 15:55:54 +0200 2011
+  Processing by HomeController#index as HTML
+  Parameters: {"mobile"=>"1"}
+Rendered home/index.mobile.haml within layouts/application (10.1ms)
+Completed 200 OK in 30ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 192.168.1.9 at Wed May 11 15:56:37 +0200 2011
+  Processing by CardsController#index as 
+Rendered cards/index.mobile.erb within layouts/simple (1.7ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 192.168.1.9 at Wed May 11 16:00:18 +0200 2011
+  Processing by Devise::RegistrationsController#new as HTML
+Completed   in 202ms
+
+ActionView::MissingTemplate (Missing template devise/registrations/new with {:locale=>[:en, :en], :formats=>[:mobile], :handlers=>[:rxml, :erb, :builder, :haml, :rjs, :rhtml]} in view paths "/Users/fsainz/rails/orly/app/views", "/Users/fsainz/.rvm/gems/ruby-1.8.7-p299/gems/devise-1.3.4/app/views"):
+  
+
+Rendered /Users/fsainz/.rvm/gems/ruby-1.8.7-p299/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed May 11 16:00:32 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (8.7ms)
+Completed 200 OK in 93ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.9 at Wed May 11 16:00:43 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (10.2ms)
+Completed 200 OK in 31ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed May 11 16:01:08 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (8.5ms)
+Completed 200 OK in 27ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 127.0.0.1 at Wed May 11 16:01:11 +0200 2011
+  Processing by CardsController#index as 
+Rendered cards/index.mobile.erb within layouts/simple (2.5ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed May 11 16:01:44 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (9.1ms)
+Completed 200 OK in 28ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 127.0.0.1 at Wed May 11 16:01:45 +0200 2011
+  Processing by CardsController#index as 
+Completed   in 1ms
+
+NoMethodError (You specified nil as the layout, but no such method was found):
+  
+
+Rendered /Users/fsainz/.rvm/gems/ruby-1.8.7-p299/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/fsainz/.rvm/gems/ruby-1.8.7-p299/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /Users/fsainz/.rvm/gems/ruby-1.8.7-p299/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/cards" for 127.0.0.1 at Wed May 11 16:01:47 +0200 2011
+  Processing by CardsController#index as 
+Completed   in 1ms
+
+NoMethodError (You specified nil as the layout, but no such method was found):
+  
+
+Rendered /Users/fsainz/.rvm/gems/ruby-1.8.7-p299/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/fsainz/.rvm/gems/ruby-1.8.7-p299/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /Users/fsainz/.rvm/gems/ruby-1.8.7-p299/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed May 11 16:02:02 +0200 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.mobile.haml within layouts/application (8.6ms)
+Completed 200 OK in 28ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cards" for 127.0.0.1 at Wed May 11 16:02:03 +0200 2011
+  Processing by CardsController#index as 
+Rendered cards/index.mobile.erb (1.1ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)

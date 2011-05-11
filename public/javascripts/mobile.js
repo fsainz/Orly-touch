@@ -1,7 +1,6 @@
 // javascripts/mobile.js
 var jQT= $.jQTouch({
     icon: 'jqtouch.png',
-    fullScreen: true,
     statusBar: 'black-translucent',
     preloadImages: [
         'themes/jqt/img/back_button_clicked.png',
@@ -19,7 +18,7 @@ var jQT= $.jQTouch({
 //        });
 
 		// defining the navigation flow for the first page
-		$('#s1').bind("swipe", function(event, info) {
+		$('#s1').live("swipe", function(event, info) {
 			if (info.direction === 'left') {
 				jQT.goTo($('#s2'), 'slideleft');
 			}
@@ -29,7 +28,7 @@ var jQT= $.jQTouch({
 		});
 
 		// defining the navigation flow for the second page
-		$('#s2').bind("swipe", function(event, info) {
+		$('#s2').live("swipe", function(event, info) {
 			if (info.direction === 'left') {
 				jQT.goTo($('#s3'), 'slideleft');
 			}
@@ -38,7 +37,7 @@ var jQT= $.jQTouch({
 			}
 		});
 		// defining the navigation flow for the second page
-		$('#s3').bind("swipe", function(event, info) {
+		$('#s3').live("swipe", function(event, info) {
 			if (info.direction === 'left') {
 				jQT.goTo($('#s1'), 'slideleft');
 			}

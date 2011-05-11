@@ -83,4 +83,9 @@ class GroupsController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
+  def slides
+    group = Group.find(params[:id])
+    @cards = Group.cards
+  end
 end

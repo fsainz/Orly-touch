@@ -5,6 +5,7 @@
     .toolbar
         = link_to "Back", nil, :class => "back"
         %h1= card.name
+        = link_to "Groups", "#home", :class => "button"
     #quotes
         // link_to (image_tag card.image_path), "#s#{next_id}", :class=>"slideleft"
         .card_image= image_tag card.image_path.to_s

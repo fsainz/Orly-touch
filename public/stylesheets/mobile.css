@@ -2,6 +2,10 @@
   height: 340px;
   overflow: hidden; }
 
+.card_image img {
+  width: 320px;
+  min-height: 340px; }
+
 a.next img, a.prev img {
   position: absolute;
   top: 40%; }

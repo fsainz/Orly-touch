@@ -1,6 +1,5 @@
 .current
     .toolbar
-        = link_to "Back", nil, :class => "back" unless current_page? root_path
         %h1 the orly project
         = link_to "Full Site", root_url(:mobile => 0), :class => "button", :rel => "external"
 
@@ -8,6 +7,7 @@
         informacion
 
     %ul
-        %li.arrow
-            = link_to "grupo 1", cards_path()
-            %small.counter 2
+        - Group.all.each do |g|
+            %li.arrow
+                = link_to g.name, cards_path()
+                // %small.counter 2

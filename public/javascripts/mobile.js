@@ -1,6 +1,7 @@
 // javascripts/mobile.js
 var jQT= $.jQTouch({
     icon: 'jqtouch.png',
+    fullScreen: true,
     statusBar: 'black-translucent',
     preloadImages: [
         'themes/jqt/img/back_button_clicked.png',

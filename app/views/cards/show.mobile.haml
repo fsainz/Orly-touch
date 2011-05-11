@@ -7,7 +7,7 @@
         %h1= card.name
     #quotes
         // link_to (image_tag card.image_path), "#s#{next_id}", :class=>"slideleft"
-        .card_image= image_tag card.image_path
+        .card_image= image_tag card.image_path.to_s
         = link_to "prev", "#s#{prev_id}", :class=>"slideright" if prev_id
         = link_to "next", "#s#{next_id}", :class=>"slideleft" if next_id
     .info

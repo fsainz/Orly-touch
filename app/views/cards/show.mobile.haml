@@ -1,7 +1,8 @@
-#card
+#s1
     .toolbar
         = link_to "Back", nil, :class => "back"
         %h1= @card.name
-
+    #quotes
+        = link_to (image_tag @card.image_path), "#s2", :class=>"slideleft"
     .info
         = @card.description

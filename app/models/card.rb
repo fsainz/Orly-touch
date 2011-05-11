@@ -10,8 +10,4 @@ class Card < ActiveRecord::Base
       card
   end
   
-  def image_path
-    %w{1.jpg 2.jpg 3.jpg}.shuffle.first
-  end
-  
 end

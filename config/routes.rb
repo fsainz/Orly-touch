@@ -2,6 +2,8 @@ Orly::Application.routes.draw do
   resources :groups do
     member do
       get :slides
+      get :grid
+      get :more
     end
   end
 

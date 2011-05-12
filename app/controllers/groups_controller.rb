@@ -85,9 +85,20 @@ class GroupsController < ApplicationController
     end
   end
 
+  def grid
+    @group = Group.find(params[:id])
+    @cards = @group.cards
+    render :layout => false
+  end
+
   def slides
     group = Group.find(params[:id])
     @cards = group.cards
+    render :layout => false
+  end
+
+  def more
+    @group = Group.find(params[:id])
     render :layout => false
   end
 end

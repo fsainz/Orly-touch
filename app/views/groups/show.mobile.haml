@@ -1,8 +1,12 @@
-#group
+%div{:id => "group#{@group.id}"}
     .toolbar
         = link_to "Back", nil, :class => "back"
         %h1= @group.name
         = link_to "slides", slides_group_path(@group), :class => "button"
+
+    .info
+        = link_to "grid", grid_group_path(@group)
+        = link_to "more", more_group_path(@group), :class=>"slideup"
 
     %ul
         - @group.cards.each do |card|

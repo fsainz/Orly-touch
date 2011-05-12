@@ -11,6 +11,16 @@
         .card_image= image_tag card.image_path.to_s
         = link_to image_tag("../themes/jqt/img/chevron_circle.png"), "#s#{prev_id}", :class=>"prev slideright" if prev_id
         = link_to image_tag("../themes/jqt/img/chevron_circle.png"), "#s#{next_id}", :class=>"next slideleft" if next_id
+        = link_to image_tag("info.png"), "#more#{card.id}", :class=>"slideup info_icon"
+    .info
+        - card.description.split("\n").each do |text|
+            %p= text
+
+%div{:id => "more#{card.id}"}
+    .toolbar
+        = link_to "Back", nil, :class => "back"
+        %h1= card.name
+        = link_to "Groups", "#home", :class => "button"
     .info
         - card.description.split("\n").each do |text|
             %p= text

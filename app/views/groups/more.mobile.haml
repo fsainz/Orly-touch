@@ -1,0 +1,7 @@
+%div{:id => "more_group#{@group.id}"}
+    .toolbar
+        = link_to "Back", group_path(@group), :class => "back"
+        %h1= @group.name
+
+    .info
+        = @group.description

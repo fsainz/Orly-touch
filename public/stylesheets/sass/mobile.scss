@@ -9,3 +9,10 @@
 a.next img, a.prev img {position:absolute;top:40%;}
 a.prev img {left:3px;-webkit-transform:rotate(180deg) scale(2)}
 a.next img {right:3px;-webkit-transform:scale(2)}
+
+a.info_icon img {position:absolute;top:50px;right:3px;-webkit-border-radius:20px;
+    -webkit-box-shadow: 0 0 0 2px rgba(255,255,255,1);
+    }
+
+.mosaic_grid{background-color:#444;}
+a.mosaic_thumb img {width:100px;height:100px;margin:0 0 3px 3px;}

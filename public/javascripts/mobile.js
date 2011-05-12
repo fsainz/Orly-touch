@@ -1,5 +1,5 @@
 // javascripts/mobile.js
-var jQT= $.jQTouch({
+var jQT= new $.jQTouch({
     icon: 'jqtouch.png',
     useFastTouch: true,
     fullScreen: true,
@@ -9,4 +9,3 @@ var jQT= $.jQTouch({
         'themes/jqt/img/button_clicked.png'
         ]
 });
-

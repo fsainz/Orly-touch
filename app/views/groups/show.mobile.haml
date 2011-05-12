@@ -8,6 +8,14 @@
         = link_to "grid", grid_group_path(@group)
         = link_to "more", more_group_path(@group), :class=>"slideup"
 
+    %ul#twoControls.segmentedControl.two
+        %li
+            %label One
+            %input{:type=>"radio", :name=>"twoSCs", :value=>"1"}
+        %li
+            %label Two
+            %input{:type=>"radio", :name=>"twoSCs", :value=>"2"}
+
     %ul
         - @group.cards.each do |card|
             %li.arrow= link_to card.name, card_path(card)
